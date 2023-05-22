@@ -109,9 +109,9 @@ h3:hover{
 }
 
 @media only screen and (max-width: 730px) {
-  img{
+  /* img{
     visibility: hidden;
-  }
+  } */
   p{
     width: 85vw;
     font-size: 1rem ;
@@ -128,6 +128,19 @@ h3:hover{
   .inner{
     font-size: 0.75rem;
   }
+.main-topic-div{
+    display: flex;
+    flex-direction: column;
+}
+.top-1{
+    display: flex;
+    flex-direction: column;
+}
+.nxt{
+    display: flex;
+    flex-direction: column;
+}
+
 }
 .main-heading{
     display: flex;
