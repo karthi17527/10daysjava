@@ -5,8 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>upcoming</h1>
+    <header class="header">
+        <h4>Learn <span>Java</span></h4>
+        <div class="inner">
+            <a href="https://github.com/karthi17527"><h3>Github</h3></a>
+            <a href="https://www.linkedin.com/in/sankar-webdev-191176262"><h3>Linkedin</h3></a>
+            <a href="https://telusko.com/"><h3>Telusko</h3></a>
+        </div>
+    </header>
+    <main class="main">
+        <h2 class="main-heading">Day 1 ==> Recursion and memoization</h2>  
+        <div class="main-topic-div">
+            <div class="main-div1">
+            <h4 class="main-topic"><span>Recursion</span></h4>
+            <p class="main-explain"> In simple words The function calling if self is called recursion.If recursion is not used corretly it may leed to infinite recursion, which means it does not stop calling itself. </p>
+            
+                <img class="main-img" src="./main.JPG">
+        </div>
+            <h4 class="main-topic">Why Recursion uses of recursion</h4>
+            <p  class="main-explain">I shall explain recursion with two examples by take <span>Factorial</span> of numbers and <span>fibonachii series.</span>Iterating loops for values are more spaces and takes time to reduce those we use recursion. </p>
+        </main>
+        <div class="top-1">
+            <h3>Factorial of numbers</h3>
+            <div class="nxt">
+                <img src="./recursion.JPG" alt="" class="img-2">
+            <p class="nxt-exp">The explanation folows in the Main class an inter 12 assigned to vaiable num and the result is declared as  a initial value zero and calls the fact() function to  the factorial of given number.
+                 Fuction calls itself for the (num-1)<sup>th</sup> term.
+                 The basic logic in the code is 5!=>5*4!=>5*4*3!.The output of the code is <span>479001600</span> </p>
+            </div>
+        </div>
+        <div class="top-1">
+            <h3>Fibonachii series</h3>
+            <div class="nxt">   
+            <p class="nxt-exp">Let's  talk about the logic in here fibonachii numbers are the
+                 addition of last 2 numbers of the series.here after every 
+                 recursion the new value of c becomes b and b becomes a ,so that the next fibonachii number is a+b for exaple fibonachii of 8 is fibonachii of 7 + fibonachii of 6 which equals
+                 <span>21.</span> </p>
+                 <img src="./fibonachii.JPG" alt="" class="img-2">
+            </div>
+        </div>
+        <div class="last">
+           <a href="index.html"> <button class="back">Back</button></a>
+            <a href="day2.html"><button class="next">Next</button></a>
+        </divcl>
 </body>
 </html>

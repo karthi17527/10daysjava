@@ -4,140 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="style" href="style.css">
     <title>Document</title>
-<style>
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: black;
-    color: rgb(184, 184, 184);
-}
-.header{
-    width: 100%;
-    height: 10vh;
-    display: flex; 
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 2.25rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 0.25rem;
-}
-span{
-    color: rgb(212, 67, 96);
-    font-size: 3rem;
-    font-family: 'Courier New', Courier, monospace;
-}
-.inner{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h3{
-    padding: .5rem;
-}
-.box{
-    height: 500px;
-    width: 500px;
-    background-color: black;
-    transition: 0.5s ease-in;
-}
-.box:hover{
-    content: 'hello';
-    transform: translateY(5px);
-}
-.hero{
-    width: 100%;
-    height: 90vh;
-    background-color: rgb(184, 184, 184);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.hero-div{
-    color: black;
-    font-size: 4rem;
-
-}
-p{
-    font-size: 1.75rem;
-    width: 50vw;
-}
-.hd{
-    margin: 50px 0 30px 0;
-}
-a{
-    text-decoration: none;
-    color: inherit;
-}
-button{
-    border: none;
-    padding: 8px;
-    border-radius: 16px;
-    background-color: lightcoral;
-    transition: .5s ease-out;
-}
-.btn{
-    display: flex;
-    align-items: center;
-   justify-content: center;
-}
-.container{
-    width: 90vw;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    margin: 20px;
-}
-.item{
-    background-color: rgb(184, 184, 184);
-    min-height: 50px;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    border-radius: 20px;
-}
-.inf{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-button:hover{
-    cursor: pointer;
-    transform: translateX(5px);
-}
-h3:hover{
-    color: lightcoral;
-}
-
-@media only screen and (max-width: 730px) {
-  img{
-    visibility: hidden;
-  }
-  p{
-    width: 85vw;
-    font-size: 1rem ;
-  }
-  .hero-div{
-    margin-left: 35px ;
-  }
-  .header{
-    font-size: 1.75rem;
-  }
-  span{
-    font-size: 2rem;
-  }
-  .inner{
-    font-size: 0.75rem;
-  }
-}
-</style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header class="header">
@@ -157,7 +26,7 @@ h3:hover{
             </p>
             <div class="btn"><a href="https://github.com/karthi17527/10daysjava" ><button>Go to Repo</button></a></div>
         </div>
-        
+          
     </section>
     <main>
         <div class="inf">
